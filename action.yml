@@ -2,7 +2,5 @@ name: 'Very Simple Hello World Milosh Release'
 description: 'Prints'
 
 runs:
-  using: "composite"
-  steps:
-    - run: node index.js
-      shell: bash
+  using: 'node12'
+  main: 'index.js'
