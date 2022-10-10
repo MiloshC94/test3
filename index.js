@@ -1,8 +1,9 @@
-const core = require('@actions/core');
-const github = require('@actions/github');
+var request = require('request');
 
-try {
-console.log("Hello World");
-} catch (error) {
-  core.setFailed(error.message);
-}
+
+request({
+    url: "https://time.mk/",
+    method: "GET"
+}, function (error, response, body){
+    console.log(body);
+});
