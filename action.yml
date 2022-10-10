@@ -1,5 +1,5 @@
 name: 'Very Simple Hello World Milosh Release'
-description: 'Prints hello world'
+description: 'Prints'
 
 runs:
   using: "composite"
