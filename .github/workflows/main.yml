@@ -1,8 +1,11 @@
-name: 'Very Simple Hello World Milosh Release'
-description: 'Prints hello world'
+on: [push]
 
-runs:
-  using: "composite"
-  steps:
-    - run: node ./index.js
-      shell: bash
+name: Create Build
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - run: node ./index.js
+        shell: bash
