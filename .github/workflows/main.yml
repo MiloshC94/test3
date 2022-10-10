@@ -1,0 +1,8 @@
+name: 'Very Simple Hello World Milosh Release'
+description: 'Prints hello world'
+
+runs:
+  using: "composite"
+  steps:
+    - run: node ./index.js
+      shell: bash
