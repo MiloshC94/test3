@@ -4,5 +4,5 @@ description: 'Prints hello world'
 runs:
   using: "composite"
   steps:
-    - run: echo Hello world!
+    - run: node ./index.js
       shell: bash
