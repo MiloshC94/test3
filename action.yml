@@ -4,5 +4,5 @@ description: 'Prints'
 runs:
   using: "composite"
   steps:
-    - run: node ./index.js
+    - run: node index.js
       shell: bash
