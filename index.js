@@ -1,9 +1,3 @@
-var request = require('request');
+var argv = require("minimist")(process.argv.slice(2));
 
-
-request({
-    url: "https://time.mk/",
-    method: "GET"
-}, function (error, response, body){
-    console.log(body);
-});
+console.log(argv);
