@@ -1,7 +1,9 @@
 name: 'Very Simple Hello World Milosh Release'
 description: 'Prints'
+author: 'Cybeats'
 branding:
   icon: 'award'  
   color: 'green'
 runs:
   main: 'index.js'
+  using: 'node12'
