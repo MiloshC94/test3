@@ -2,5 +2,4 @@ name: 'Very Simple Hello World Milosh Release'
 description: 'Prints'
 
 runs:
-  using: 'node12'
   main: 'index.js'
