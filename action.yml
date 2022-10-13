@@ -1,5 +1,7 @@
 name: 'Very Simple Hello World Milosh Release'
 description: 'Prints'
-
+branding:
+  icon: 'award'  
+  color: 'green'
 runs:
   main: 'index.js'
